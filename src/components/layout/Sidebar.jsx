@@ -20,6 +20,7 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen }) {
     { name: "Flash Deals", path: "/flash-deals" },
     { name: "Reviews", path: "/reviews" },
     { name: "StockManagement", path: "/stock-management" },
+    { name: "Returns & Refunds", path: "/returns" },
     { name: "CurierBooking", path: "/curier-booking" },
     { name: "Settings", path: "/settings" },
     
