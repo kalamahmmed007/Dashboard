@@ -9,8 +9,8 @@ import {
   MdChevronRight, MdSwapVert, MdOpenInNew, MdInfo,
   MdStorefront, MdHome, MdBusiness, MdAccessTime,
   MdFlashOn, MdSpeed, MdVerified, MdWarning, MdLabel,
-  MdReceipt, MdPackage, MdDirectionsBike, MdAirplanemodeActive,
-} from 'react-icons/md';
+  MdReceipt, MdDirectionsBike, MdAirplanemodeActive
+} from "react-icons/md";
 import {
   ResponsiveContainer, AreaChart, Area, XAxis, YAxis,
   CartesianGrid, Tooltip, BarChart, Bar, Cell, PieChart,

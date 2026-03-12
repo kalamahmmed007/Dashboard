@@ -21,6 +21,7 @@ import ReviewsPage from "../pages/ReviewsPage";
 import SettingsPage from "../pages/SettingsPage";
 import AdminHero from "../pages/hero/HeroPage";
 import StockManagement from "../pages/StockManagement/StockManagement";
+import CurierBooking from "../pages/CurierBooking/CurierBooking";
 
 export default function AdminRoutes() {
   const dispatch = useDispatch();
@@ -57,6 +58,7 @@ export default function AdminRoutes() {
         <Route path="reviews" element={<ReviewsPage />} />
         <Route path="stock-management" element={<StockManagement />} />
         <Route path="settings" element={<SettingsPage />} />
+        <Route path="curier-booking" element={<CurierBooking />} />
         {/* Catch-all redirect */}
         <Route path="*" element={<Navigate to="/dashboard" replace />} />
       </Route>

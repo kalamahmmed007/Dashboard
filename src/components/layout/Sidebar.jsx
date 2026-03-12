@@ -20,6 +20,7 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen }) {
     { name: "Flash Deals", path: "/flash-deals" },
     { name: "Reviews", path: "/reviews" },
     { name: "StockManagement", path: "/stock-management" },
+    { name: "CurierBooking", path: "/curier-booking" },
     { name: "Settings", path: "/settings" },
     
   ];
@@ -32,7 +33,7 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen }) {
     >
       {/* Logo / Title */}
       <div className="border-b border-gray-700 p-6 text-center text-2xl font-bold tracking-wider">
-        Admin Panel
+        ROYEL <span className="text-red-500">ATTIRE</span>
       </div>
 
       {/* Menu Items */}
